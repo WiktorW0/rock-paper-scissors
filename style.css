@@ -1,0 +1,26 @@
+#gameDiv{
+  width: 500px;
+  height: 260px;
+  background-color: rgb(179, 179, 179);
+  font-family: "Comic Sans MS";
+  text-align: center;
+  border: 3px solid;
+  border-radius: 30px;
+  
+}
+.choiceBtn{
+  font-family: consolas;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+  border-radius: 30px;
+  border-color: aqua;
+}
+
+#playerText{
+  color: blue;
+}
+
+#computerText{
+  color: red;
+}
