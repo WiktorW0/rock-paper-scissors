@@ -1,4 +1,10 @@
-#gameDiv{
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameDiv {
   width: 500px;
   height: 260px;
   background-color: rgb(179, 179, 179);
@@ -6,9 +12,10 @@
   text-align: center;
   border: 3px solid;
   border-radius: 30px;
-  
+
 }
-.choiceBtn{
+
+.choiceBtn {
   font-family: consolas;
   font-size: 15px;
   height: 30px;
@@ -17,10 +24,10 @@
   border-color: aqua;
 }
 
-#playerText{
+#playerText {
   color: blue;
 }
 
-#computerText{
+#computerText {
   color: red;
 }
